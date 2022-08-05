@@ -8,9 +8,13 @@ export default function Projects() {
         <section className="projects">
             <h2>My Projects</h2>
 
+            <button className='button'>Level 1 Simple Projects </button>
+            <button className='button'>Level 2 Intermidiate Projects </button>
+            <button className='button'>Level 3 Capstone Projects </button>
+
             <div className="projects__cards">
 
-                <div className="projects__card">
+                {/* <div className="projects__card">
                     <h3>Uniswap</h3>
                     <img src={uniswap} alt="Uniswap Swap Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -20,9 +24,9 @@ export default function Projects() {
 
                     <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/Uniswap/v2-core" target="_blank" className="button">Code</a>
-                </div>
+                </div> */}
 
-                <div className="projects__card">
+                {/* <div className="projects__card">
                     <h3>Compound</h3>
                     <img src={compound} alt="Compound Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -32,9 +36,9 @@ export default function Projects() {
 
                     <a href="https://compound.finance/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
-                </div>
+                </div> */}
 
-                <div className="projects__card">
+                {/* <div className="projects__card">
                     <h3>Aave</h3>
                     <img src={aave} alt="Aave Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,7 +48,7 @@ export default function Projects() {
 
                     <a href="https://aave.com/" target="_blank" className="button">Site</a>
                     <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -6,11 +6,9 @@ export default function About() {
         <section className='about'>
             <h2>About Me</h2>
             <p>
-            Highly enthusiatic and very interested in learning all aspect of Frontend Web Development and Web3 Blockchain development with a passion for building dynamic and interactive websites. 
-            Well focused on JavaScript, React, Blockchain, Web3, and Interactive Designs. A casual online gamer and a semi-retired basketball player.
+            A highly motivated individual who enjoy learning and building Web3 smart contracts with Frontend integration for user interactive and dynamic websites. 
+            Well focused on learning JavaScript, React, Blockchain, Frameworks, and Interactive Designs. A to-do list addict, a casual online gamer, an owl coder and a basketball lover.
             </p>
         </section>
     );
 }
-
-// export default About;
